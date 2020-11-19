@@ -14,7 +14,14 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="MyRatingBar" parent="Theme.AppCompat">
-        <item name="colorControlNormal">#FF3365</item>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">#FF3365</item>
+        <item name="colorControlNormal">#6D6D80</item>
+
     </style>
+
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+    </style>
+
 </resources>
